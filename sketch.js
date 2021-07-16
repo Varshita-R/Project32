@@ -10,14 +10,15 @@ var bg ;
 
 function preload() {
     // create getBackgroundImg( ) here
+     getBackgroundImg();
+
 }
 
 function setup(){
     var canvas = createCanvas(1000,700);
     engine = Engine.create();
     world = engine.world;
-    getBackgroundImg();
-
+   
 }
 
 function draw(){
